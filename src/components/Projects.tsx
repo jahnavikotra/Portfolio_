@@ -114,15 +114,23 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex space-x-4">
+                  {project.liveUrl ? (
                   <a 
                     href={project.liveUrl} 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors"
                   >
-                    <ArrowUp size={16} />
-                    <span>Live Demo</span>
-                  </a> 
+                  <ArrowUp size={16} />
+                  <span>Live Demo</span>
+                  </a>
+                  ) : (
+                  <div className="flex items-center space-x-2 text-gray-500 dark:text-gray-400 cursor-not-allowed">
+                  <ArrowUp size={16} />
+                  <span>Live Demo (Coming Soon)</span>
+                  </div>
+                  )}
+
                   <a 
                     href={project.githubUrl} 
                     target="_blank" 
