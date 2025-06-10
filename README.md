@@ -4,7 +4,8 @@ A visually rich, interactive personal portfolio website built using **React**, *
 
 
 
-![screenshot](../portfolio/public/images/preview.png) 
+![Preview](./preview.png)
+ 
 
 ---
 
