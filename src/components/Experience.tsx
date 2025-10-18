@@ -8,11 +8,11 @@ const Experience = () => {
 
   const experiences = [
     {
-      year: '2023 - Present',
-      title: 'Frontend Developer',
-      company: 'Tech Innovations Inc.',
-      description: 'Lead frontend development for large-scale web applications. Mentored junior developers and implemented modern development practices.',
-      achievements: ['Led team of 5 developers', 'Improved app performance by 40%', 'Implemented CI/CD pipeline']
+      year: 'Jun-Aug - 2025',
+      title: 'Machine learning',
+      company: 'Feynn Labs.',
+      description: 'Worked on a business prototype involving market segmentation and code conversions from R to Python as part of a two-member team.',
+      achievements: ['Developed a business prototype', 'Converted models from R to Python', 'Collaborated in a 2-member team to deliver project insights']
     },
     {
       year: 'Feb-Mar - 2024',
